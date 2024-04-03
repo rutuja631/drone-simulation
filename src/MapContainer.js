@@ -6,7 +6,7 @@ const MapContainer = ({ children, center, zoom }) => {
   return (
     <div style={{ height: '600px', width: '100%' }}>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "AIzaSyAO7IcJVlVWBc-A6U4JRRXngN2LCEnGOIY" }} // Replace 'YOUR_API_KEY' with your Google Maps API key
+        bootstrapURLKeys={{ key: "" }} // Replace 'YOUR_API_KEY' with your Google Maps API key
         defaultCenter={center}
         defaultZoom={zoom}
       >
